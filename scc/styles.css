@@ -116,10 +116,22 @@ body{
 }
 /* body */
 /* Blok 1 */
+   
 .hero{
+
     text-align: center;
     background-color: #2F303A;
     padding: 200px 0;
+
+    max-width: 1600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url("../images/hero/overlay.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 }
 .hero-title{
     
@@ -138,10 +150,23 @@ body{
         text-transform: uppercase;
 }
 /* Blok2 */
+.icon{
+    
+    width: 70px;
+    height: 70px;   
+}
+.icon-bg{
+    display: flex;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+
+    background: #F5F4FA;
+border-radius: 4px;
+}
+
 
 .team{
     background-color: #F5F4FA;
-    
 }
 .section{
     padding: 94px 0px;
