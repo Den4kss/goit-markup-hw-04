@@ -100,6 +100,8 @@ body{
     text-decoration: none;
 }
 .contakt{
+    display: flex;
+    align-items: center;
         padding-top: 32px;
         padding-bottom: 32px;
 
@@ -157,7 +159,9 @@ background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 
 
 .icon-bg {
     display: flex;
-    padding: 25px 100px;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
     margin-bottom: 30px;
 
     background: #F5F4FA;
@@ -294,8 +298,7 @@ padding: 0px;
 .icon-group{
     
     max-width: 106px;
-    max-height: 60px;
-    padding: 16px 32px;   
+    max-height: 60px;   
 }
 .customers-link{
     display: flex;
@@ -303,7 +306,7 @@ padding: 0px;
     justify-content: center;
     width: 170px;
     height: 92px;
-    border: 2px solid #AFB1B8;
+    border: 1px solid #AFB1B8;
     border-radius: 4px;
     color: #AFB1B8;
 }
@@ -405,12 +408,11 @@ img{ display: block;
 }
 .blok{
     text-decoration: none;
-    background: #FFFFFF;
+    background: var(--primari-white-color);
     outline: 1px solid #EEEEEE;  
 }
 .blok:hover,
 .blok:focus{
- border: 1px solid #EEEEEE;
  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /* Footer */
@@ -499,7 +501,7 @@ ul{
 .flex-group{
     display: flex;
     flex-wrap: wrap;
-    margin: -1px;
+    margin: 0px;
     padding: 0px;
 }
 .keys{
@@ -532,8 +534,8 @@ ul{
     align-items: center;
     width: 44px;
     height: 44px;
-    color: #757575;
-    background-color: #ffffff;
+    color: var(--primari-text-color);
+    background-color: var(--primari-white-color);
     border-radius: 50%;
     
 }
@@ -595,7 +597,7 @@ ul{
     width: 44px;
     height: 44px;
     color: var(--primari-white-color);
-    background-color: var(--primari-text-color);
+    background-color: rgba(255, 255, 255, 0.1);;
     border-radius: 50%;
 
 }
